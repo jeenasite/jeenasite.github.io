@@ -1,0 +1,116 @@
+@font-face {
+  font-family: cgf;
+  src: url(CgFiorelloCdMedium.ttf);
+
+  font-family: mnt;
+  src: url(MicrosoftNewTaiLueBold.ttf);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #330066;
+
+}
+
+body{
+  background-color: #FFCC66;
+  font-family: cgf;
+}
+
+.footer{
+   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #330066;
+  padding: 28px 32px;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  float: left;
+  padding: 14px 16px;
+
+}
+
+.text-color{
+  color: #FFFF00;
+}
+
+.text-color-two{
+  color: #00FFFF;
+}
+
+.text-color-three{
+  color: #00FF00;
+}
+
+.text-color-four{
+  color: #FF00FF;
+}
+
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: blue;
+}
+
+.menu a:hover {
+  background-color: #111;
+}
+
+.center {
+  text-align: center;
+}
+
+.section {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding-left: 20%;
+	width: 70%;
+	font-size: 1.3em;
+}
+
+.section-supp {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 70%;
+  font-size: 1.3em;
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #003366;
+  color: white;
+}
+
+
+
+
+.card:hover ~ #hello {
+ background-color: blue;
+  
+}
+
+.card-content{
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	 transition: 0.3s;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+table,td,th {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
